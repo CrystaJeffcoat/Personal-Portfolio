@@ -2,6 +2,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  font-size: medium;
  }
 
  * {
@@ -25,9 +26,14 @@ body, html {
 nav {
   position: relative;
   height: 4.5rem;
-  z-index: 2;
+  z-index: 3;
   background-color: #ffffffa4;
-  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.13);
+}
+
+.sidenav {
+  width: 200px;
+  background-color: #ffffff98;
 }
 
 #bkg-img {
@@ -41,18 +47,30 @@ nav {
   height: 100%;
   filter: blur(3px);
   -webkit-filter: blur(2px);
-  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.1);
 }
 
 .masthead-heading {
-    margin-top: -0.2em;
-    font-size: 5em;
-    font-weight: 300;
-    letter-spacing: -0.02em;
-    text-align: center;
-    text-transform: uppercase;
-    color: #ffffffa4;
-    width: 100%;
+  margin-top: -0.2em;
+  font-size: 5em;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffffce;
+  width: 100%;
+}
+
+#main-page-info > li > a,
+#project-info-div > p > a {
+  text-decoration: none;
+  font-size: 1.1em;
+  color: #ffffffce;
+}
+
+#main-page-info > li > a:hover,
+#project-info-div > p > a:hover {
+  text-decoration: underline;
 }
 
 #footer {
@@ -60,8 +78,8 @@ nav {
   bottom: 8rem;
   width: 100%;
   text-align: center;
-  background-color: #ffffffa4;
-  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+  background-color: #ffffffd5;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.13);
   text-decoration: none;
   padding: 1px;
 }
@@ -74,7 +92,23 @@ nav {
   margin: 0 5px;
 }
 
-/*
-media screen @ (mobile screen) 
-  change navbar to hidden right
-*/
+.carousel .carousel-item>img {
+  height: inherit;
+}
+
+.carousel .carousel-item {
+  width: 300px;
+  height: 300px;
+  left: 0;
+}
+
+a.carousel-item {
+  color:#ffffffce;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 600px) {
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
