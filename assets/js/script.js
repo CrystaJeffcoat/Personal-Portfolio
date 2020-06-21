@@ -66,11 +66,3 @@ function changeProjectInfo() {
         projectInfoDivs[1].children[0].setAttribute("href", projInfoArr.weatherDash[0].git);
     }
 }
-
-
-
-
-
-document.body.children[3].childNodes[3]
-
-$(".project-name")[0].innerText
