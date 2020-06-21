@@ -1,4 +1,5 @@
-## About Me 
+## My personal portfolio
 
-* This website is a static HTML website using semantic tags and minimal CSS. 
-* It is currently hosted on Github Pages.
+Link to deployed website[https://crystajeffcoat.github.io/Personal-Portfolio/]
+
+
