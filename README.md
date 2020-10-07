@@ -1,3 +1,3 @@
-# Personal-Portfolio
-My personal portfolio  
-check out my site @ https://crysta-jeffcoat.herokuapp.com
+# My Personal-Portfolio
+check out my site
+> https://crysta-jeffcoat.herokuapp.com
