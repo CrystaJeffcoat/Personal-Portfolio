@@ -1,0 +1,39 @@
+p#learnmore {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.4em;
+}
+
+#learnmore a {
+  text-decoration: underline;
+  color:rgb(100, 188, 212);;
+}
+
+#homeTitle {
+  font-size: 3.5em;
+  color: rgb(34, 34, 34);
+  font-style: italic;
+  margin-bottom: 0;
+  margin-top: 25%;
+}
+
+#homeTitle span{
+  font-size: 1.3em;
+  color:rgb(36, 35, 35)
+}
+
+#webDev {
+  font-size: 1.5em;
+  color: rgb(41, 41, 41);
+  font-style: italic;
+}
+
+@media only screen and (min-width : 400px) {
+  #homeTitle {
+    font-size: 5em;
+  }
+
+  #webDev {
+    font-size: 2em;
+  }
+}

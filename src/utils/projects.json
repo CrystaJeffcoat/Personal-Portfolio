@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Movie Finder",
+    "image": "movie-finder.png",
+    "git": "https://github.com/CrystaJeffcoat/MovieFinder",
+    "site": "https://crystajeffcoat.github.io/MovieFinder/",
+    "description": "Search for movies and thier available viewing platforms, as well as similar movie suggestions.",
+    "language": "JavaScript"
+  },
+  {
+    "name": "React Recipe Directory",
+    "image": "react-recipes.png",
+    "git": "https://github.com/CrystaJeffcoat/Recipe_directory-React",
+    "site": "https://limitless-journey-87355.herokuapp.com",
+    "description": "A directory of essential oil recipes that you can view, sort, and save for later use.",
+    "language": "React"
+  },
+  {
+    "name": "Bindr",
+    "image": "bindr.png",
+    "git": "https://github.com/CrystaJeffcoat/Bindr",
+    "site": "site",
+    "description": "A tinder-like app for books.",
+    "language": "React"
+  },
+  {
+    "name": "Workout Tracker",
+    "image": "fitness-tracker.png",
+    "git": "https://github.com/CrystaJeffcoat/Workout-Tracker",
+    "site": "https://damp-retreat-20371.herokuapp.com/",
+    "description": "Create and track workouts and view your weekly progress via graphs.",
+    "language": "Javascript"
+  },
+  {
+    "name": "Eat-da-Burger",
+    "image": "eat-da-burger.png",
+    "git": "https://github.com/CrystaJeffcoat/Eat-da-burger",
+    "site": "https://mysterious-retreat-76765.herokuapp.com/",
+    "description": "To-do list of all the burgers you can eat!",
+    "language": "Javascript"
+  },
+  {
+    "name": "Weather Dashboard",
+    "image": "weather-dash.png",
+    "git": "https://github.com/CrystaJeffcoat/Weather-Dashboard",
+    "site": "https://crystajeffcoat.github.io/Weather-Dashboard/",
+    "description": "View the current weather of any city along with a 5 day forecast.",
+    "language": "Javascript"
+  }
+]

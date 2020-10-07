@@ -1,0 +1,11 @@
+.collapsible-body {
+  background-color: transparent !important;
+}
+
+.collapsible-header, .subheader {
+  font-size: 18px;
+  color:rgb(100, 188, 212) !important;
+}
+i {
+  color:rgb(100, 188, 212) !important;
+}
